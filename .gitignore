@@ -1,0 +1,13 @@
+.idea
+
+main.aux
+main.bcf
+main.log
+main.pdf
+main.run.xml
+main.out
+_minted-main/
+
+missfont.log
+
+*.pdf

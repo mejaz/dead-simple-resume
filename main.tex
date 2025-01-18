@@ -1,0 +1,77 @@
+\documentclass[a4paper,10pt]{article}
+\input{Configs/configs}
+
+\begin{document}
+
+% Header with profile picture and contact details
+    \begin{center}
+        \begin{minipage}{0.3\textwidth}
+            \includegraphics[width=0.8\textwidth,clip,keepaspectratio]{images/pic}
+        \end{minipage}
+        \hspace{10pt}
+        \begin{minipage}{0.6\textwidth}
+            \begin{flushright}
+            {\Huge \textbf{John Doe}}
+
+                \vspace{1em}
+                \faEnvelope~\href{mailto:john.doe@example.com}{john.doe@example.com}
+
+                \faPhone~+123-45-678-9100
+
+                \faGlobe~\href{https://www.johndoeportfolio.com}{johndoeportfolio.com}
+
+                \faLinkedin~\href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/johndoe}
+
+                \faGithub~\href{https://github.com/johndoe}{github.com/johndoe}
+            \end{flushright}
+        \end{minipage}
+
+    \end{center}
+
+    \vspace{2em}
+% About Me Section
+    \resumeSection{About Me}
+
+    \vspace{1em}
+    Experienced software engineer with a strong background in backend development and cloud-native solutions. Passionate about creating scalable, efficient, and user-friendly applications. Skilled in multiple programming languages and frameworks, with a focus on delivering high-quality software that meets business needs. Always eager to learn new technologies and contribute to innovative projects.
+
+    \vspace{2em}
+% Work Experience Section
+    \resumeSection{Work Experience}
+    \begin{itemize}
+        \item \textbf{Backend Engineer} at \textit{TechWave Solutions} - \emph{\small Sunnyvale, CA, USA}\\
+        \emph{\small 08/2022 -- Present}
+        \begin{itemize}
+            \item Developing microservices and background jobs using Golang
+            \item Building and maintaining RESTful APIs and scheduled tasks in NestJS
+            \item Collaborating on system architecture design and integrating with third-party systems
+            \item Implemented scalable solutions for an e-commerce platform, integrating payment gateways and third-party logistics
+        \end{itemize}
+        \item \textbf{Full Stack Engineer} at \textit{InnovateX Labs} - \emph{\small Berlin, Germany}\\
+        \emph{\small 01/2020 -- 08/2022}
+        \begin{itemize}
+            \item Built and maintained backend services using Django and Node.js
+            \item Designed responsive user interfaces using ReactJS, Material-UI, and TailwindCSS
+            \item Contributed to the SmartCity project, integrating IoT data visualization and analytics
+            \item Worked on integrating AI-powered chatbots and recommendation engines using machine learning APIs
+        \end{itemize}
+    \end{itemize}
+
+    \vspace{2em}
+% Skills Section
+    \resumeSection{Skills}
+    \vspace{1em}
+    \skill{Golang} \skill{Python} \skill{JavaScript} \skill{Node.js} \skill{NestJS} \skill{ExpressJS} \skill{ReactJS} \skill{Next.js} \skill{Django} \skill{PostgreSQL} \skill{MySQL} \skill{MongoDB} \skill{Docker} \skill{Kubernetes} \skill{AWS} \skill{CI/CD Pipelines} \skill{Microservices Architecture} \skill{API Development}
+
+    \vspace{2em}
+% Education Section
+    \resumeSection{Education}
+    \begin{itemize}
+        \item \textbf{B.Tech - Computer Science, XYZ University, Springfield, USA}\\
+        \emph{2010 -- 2014}
+        \item \textbf{High School Diploma, ABC High School, Springfield, USA}\\
+        \emph{2008 -- 2010}
+    \end{itemize}
+
+
+\end{document}
