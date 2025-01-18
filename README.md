@@ -23,7 +23,7 @@ A straightforward LaTeX resume template. Simply edit the values in main.tex and 
     ```shell
     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default -dNOPAUSE -dQUIET -dBATCH -sOutputFile=my_resume.pdf metadata.ps main.pdf 
     ```
-5. "resume.pdf" file is generated
+5. "my_resume.pdf" file is generated
 
 ### Tech stack
 
